@@ -32,7 +32,19 @@ public class Segitiga_samakaki {
 				System.out.println();
 			}
         	
+        	System.out.print("\nIngin Mencoba lagi (Y/T) ?:");
+        	String cek = scan.next();
         	
+        	if(cek.equalsIgnoreCase("T")) {
+                    
+                    menu = false;
+                    
+                } else if(cek.equalsIgnoreCase("Y"))
+                {
+                    menu = true;
+                }
+                else
+                    System.exit(0);
         }   
     }
 }
