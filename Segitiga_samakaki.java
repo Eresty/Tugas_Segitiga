@@ -15,37 +15,7 @@ public class Segitiga_samakaki {
         
         	System.out.println("\nCetak Segitiga Sama Kaki");
         	System.out.println("==========================");
-        	for (int i=1;i<=x;i++)
-			{
-				for(int j=x-1;j>=i;j--)
-				{ 
-					System.out.print(" ");
-				}
-				for(int k=1;k<=i;k++)
-				{ 
-					System.out.print("*");
-				}
-				for (int l=1;l<=i-1;l++)
-				{
-					System.out.print("*");
-				}
-				System.out.println();
-			}
         	
-        	System.out.print("\nIngin Mencoba lagi (Y/T) ?:");
-        	String cek = scan.next();
-        	
-        	if(cek.equalsIgnoreCase("T")) {
-                    
-                    menu = false;
-                    
-                } else if(cek.equalsIgnoreCase("Y"))
-                {
-                    menu = true;
-                }
-                else
-                    System.exit(0);
-        }   
     }
 }
     
